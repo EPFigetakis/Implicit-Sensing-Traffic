@@ -12,7 +12,7 @@ from PTS_Int import docparse
 
 
 def run(x):
-    sumoBinary = checkBinary('sumo-gui')
+    sumoBinary = checkBinary('sumo')
     traci.start([sumoBinary, '-c', 'highway.sumocfg',"--tripinfo-output", "tripinfo.xml", "-S", "--quit-on-end"]);
     step = 0
     x1 = x[0]
