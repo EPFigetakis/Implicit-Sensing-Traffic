@@ -1,6 +1,6 @@
 # Implementation for Implicit Sensing in Traffic Optimization: Advanced Deep Reinforcement Learning Techniques
 
-<img src="DemoGiF.gif" alt="drawing" width="800">
+<img src="Demogif.gif" alt="drawing" width="600">
 
 
 This repo covers and replicates the methodology introduced in the paper. 
