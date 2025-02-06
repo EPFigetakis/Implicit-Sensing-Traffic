@@ -9,7 +9,7 @@ A quick overview of implementation and contributions from the paper:
 > 
 > Formulated the scenario in an MDP to employ a DQN
 >
-> Evaluate and contrast two distince decision-making policies, Boltzmann and Epsilon Greedy
+> Evaluate and contrast two distance decision-making policies, Boltzmann and Epsilon Greedy
 >
 > Created and integration between OpenAI GYM and SUMO, using TraCI
 
@@ -17,3 +17,6 @@ A quick overview of implementation and contributions from the paper:
 The proposed solution includes a visual simulation of the SUMO lane changing happening to avoid obstacles in the road. 
 
 Also included is the performance of the different policies. 
+
+
+If you make use of this code in your publications please cite (https://ieeexplore.ieee.org/document/10437453)
