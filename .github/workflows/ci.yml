@@ -12,12 +12,14 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: '3.7.17'
 
       - name: Install dependencies
         run: |
-          pip install pytest
+          pip install -r requirements.txt
       
-      - name: Run tests
-        run: echo "Running tests..."
+      - name: Run tests on Main notebook
+        run: | 
+          echo "Running tests..."
+          pytest --nbmake Demo.ipynb
 

@@ -1,0 +1,53 @@
+<additionals>
+    ###RoadBlock
+    <e1Detector id="det_4" lane="E0_1" pos="270" freq="500" file="det.out" />
+
+
+    ###Lane 1
+    <e1Detector id="det_0_0" lane="E0_0" pos="20" freq="500" file="det.out" />
+    <e1Detector id="det_0_1" lane="E0_0" pos="40" freq="500" file="det.out" />
+    <e1Detector id="det_0_2" lane="E0_0" pos="60" freq="500" file="det.out" />
+    <e1Detector id="det_0_3" lane="E0_0" pos="80" freq="500" file="det.out" />
+    <e1Detector id="det_0_4" lane="E0_0" pos="100" freq="500" file="det.out" />
+    <e1Detector id="det_0_5" lane="E0_0" pos="120" freq="500" file="det.out" />
+    <e1Detector id="det_0_6" lane="E0_0" pos="140" freq="500" file="det.out" />
+    <e1Detector id="det_0_7" lane="E0_0" pos="160" freq="500" file="det.out" />
+    <e1Detector id="det_0_8" lane="E0_0" pos="180" freq="500" file="det.out" />
+    <e1Detector id="det_0_9" lane="E0_0" pos="200" freq="500" file="det.out" />
+    <e1Detector id="det_0_10" lane="E0_0" pos="220" freq="500" file="det.out" />
+    <e1Detector id="det_0_11" lane="E0_0" pos="240" freq="500" file="det.out" />
+    <e1Detector id="det_0_12" lane="E0_0" pos="260" freq="500" file="det.out" />
+    ###Lane 2
+    <e1Detector id="det_1_0" lane="E0_1" pos="20" freq="500" file="det.out" />
+    <e1Detector id="det_1_1" lane="E0_1" pos="40" freq="500" file="det.out" />
+    <e1Detector id="det_1_2" lane="E0_1" pos="60" freq="500" file="det.out" />
+    <e1Detector id="det_1_3" lane="E0_1" pos="80" freq="500" file="det.out" />
+    <e1Detector id="det_1_4" lane="E0_1" pos="100" freq="500" file="det.out" />
+    <e1Detector id="det_1_5" lane="E0_1" pos="120" freq="500" file="det.out" />
+    <e1Detector id="det_1_6" lane="E0_1" pos="140" freq="500" file="det.out" />
+    <e1Detector id="det_1_7" lane="E0_1" pos="160" freq="500" file="det.out" />
+    <e1Detector id="det_1_8" lane="E0_1" pos="180" freq="500" file="det.out" />
+    <e1Detector id="det_1_9" lane="E0_1" pos="200" freq="500" file="det.out" />
+    <e1Detector id="det_1_10" lane="E0_1" pos="220" freq="500" file="det.out" />
+    <e1Detector id="det_1_11" lane="E0_1" pos="240" freq="500" file="det.out" />
+    <e1Detector id="det_1_12" lane="E0_1" pos="260" freq="500" file="det.out" />
+    ###Lane 3
+    <e1Detector id="det_2_0" lane="E0_2" pos="20" freq="500" file="det.out" />
+    <e1Detector id="det_2_1" lane="E0_2" pos="40" freq="500" file="det.out" />
+    <e1Detector id="det_2_2" lane="E0_2" pos="60" freq="500" file="det.out" />
+    <e1Detector id="det_2_3" lane="E0_2" pos="80" freq="500" file="det.out" />
+    <e1Detector id="det_2_4" lane="E0_2" pos="100" freq="500" file="det.out" />
+    <e1Detector id="det_2_5" lane="E0_2" pos="120" freq="500" file="det.out" />
+    <e1Detector id="det_2_6" lane="E0_2" pos="140" freq="500" file="det.out" />
+    <e1Detector id="det_2_7" lane="E0_2" pos="160" freq="500" file="det.out" />
+    <e1Detector id="det_2_8" lane="E0_2" pos="180" freq="500" file="det.out" />
+    <e1Detector id="det_2_9" lane="E0_2" pos="200" freq="500" file="det.out" />
+    <e1Detector id="det_2_10" lane="E0_2" pos="220" freq="500" file="det.out" />
+    <e1Detector id="det_2_11" lane="E0_2" pos="240" freq="500" file="det.out" />
+    <e1Detector id="det_2_12" lane="E0_2" pos="260" freq="500" file="det.out" />
+
+     <e1Detector id="det_0_F" lane="E0_0" pos="280" freq="500" file="det.out" />
+     <e1Detector id="det_1_F" lane="E0_1" pos="280" freq="500" file="det.out" />
+     <e1Detector id="det_2_F" lane="E0_2" pos="280" freq="500" file="det.out" />
+
+</additionals>
