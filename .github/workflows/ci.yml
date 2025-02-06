@@ -25,9 +25,17 @@ jobs:
       
       - name: Verify SUMO Installation
         run: sumo --version 
+
+      - name: Set SUMO Environment Variables
+        run: |
+          echo "export SUMO_HOME=/usr/share/sumo" >> $HOME/.bashrc
+          echo "export PATH=$PATH:/usr/bin" >> $HOME/.bashrc
+          source $HOME/.bashrc 
       
       - name: Run tests on Main notebook
         run: | 
           echo "Running tests..."
+          export SUMO_HOME=/usr/share/sumo
+          export PATH=$PATH:/usr/bin
           pytest --nbmake Demo.ipynb
 
