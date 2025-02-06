@@ -4,7 +4,7 @@ on: [push, pull_request]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -12,12 +12,30 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: '3.7.17'
 
       - name: Install dependencies
         run: |
-          pip install pytest
+          pip install -r requirements.txt
       
-      - name: Run tests
-        run: echo "Running tests..."
+      - name: Install SUMO
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y sumo sumo-tools sumo-doc
+      
+      - name: Verify SUMO Installation
+        run: sumo --version 
+
+      - name: Set SUMO Environment Variables
+        run: |
+          echo "export SUMO_HOME=/usr/share/sumo" >> $HOME/.bashrc
+          echo "export PATH=$PATH:/usr/bin" >> $HOME/.bashrc
+          source $HOME/.bashrc 
+      
+      - name: Run tests on Main notebook
+        run: | 
+          echo "Running tests..."
+          export SUMO_HOME=/usr/share/sumo
+          export PATH=$PATH:/usr/bin
+          pytest --nbmake Demo.ipynb
 
