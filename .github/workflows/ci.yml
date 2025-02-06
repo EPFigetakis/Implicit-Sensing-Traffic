@@ -18,6 +18,14 @@ jobs:
         run: |
           pip install -r requirements.txt
       
+      - name: Install SUMO
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y sumo sumo-tools sumo-doc
+      
+      - name: Verify SUMO Installation
+        run: sumo --version 
+      
       - name: Run tests on Main notebook
         run: | 
           echo "Running tests..."
